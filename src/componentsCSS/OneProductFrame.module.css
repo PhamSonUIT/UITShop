@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.linker {
+  text-decoration: none;
+}
+
+.productDisplay {
+  margin: 50px 30px;
+  border: lightgray solid 1px;
+  width: 250px;
+  height: 370px;
+  border-radius: 50px;
+  transition: 0.2s ease;
+  background-color: lightgoldenrodyellow;
+}
+
+.productDisplay:hover {
+  margin-top: 20px;
+  border: lightgray solid 1px;
+  box-shadow: 0px 7px 5px 8px rgb(231, 231, 231);
+}
+
+.productDisplay:hover:active {
+  margin-top: 30px;
+}
+
+.productDisplay img {
+  display: block;
+  margin: 15px auto;
+}
+
+.productName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+  font-weight: bolder;
+  color: black;
+}
+
+.productName:hover {
+  text-decoration: underline;
+  color: rgb(240, 27, 27);
+  cursor: pointer;
+}
+
+.productName:active {
+  color: purple;
+}
+
+.price,
+.rating {
+  margin: 5px;
+  text-align: center;
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+.rating {
+  font-weight: normal;
+  color: black;
+  font-style: italic;
+  font-size: 17px;
+}
+
+.iconSize {
+  color: rgb(248, 180, 8);
+}
